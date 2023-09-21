@@ -1,0 +1,59 @@
+/* component styling */
+
+.container {
+    /* align all texts to the center */
+    text-align: center;
+}
+
+.title {
+    /* we need spacing at the top of the title */
+    margin-top: 50px;
+    /* color of the title */
+    color: white;
+    /* font size, increased */
+    font-size: 60px;
+    /* default flex direction is horizontal */
+    display: flex;
+    /* mainAxisAlignment */
+    justify-content: center;
+    /* crossAxisAlignment */
+    align-items: center;
+}
+
+.title span {
+    color: #26ffcb;
+    padding-left: 15px;
+}
+
+.reset {
+    width: 250px;
+    height: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background: #1f3540;
+    font-size: 26px;
+    color: #26ffcb;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.boxes {
+    /* default flex direction is horizontal */
+    display: flex;
+    height: 180px;
+    width: 180px;
+    background: #1f3540;
+    border: 4px solid #0f1b21;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.board {
+    height: 600px;
+    width: 564px;
+    display: flex;
+    /* so as to center the board content */
+    margin: auto;
+}
